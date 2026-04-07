@@ -1,0 +1,18 @@
+# Guia de Web Scraping
+
+## O que é Web Scraping?
+Web Scraping refere-se ao processo de extrair informações de sites da web. É um método conveniente para coletar grandes quantidades de dados que estão disponíveis publicamente na internet, mas não estão em um formato facilmente acessível.
+
+## Ferramentas e Bibliotecas
+1. **Beautiful Soup**: Uma biblioteca Python para extrair dados de arquivos HTML e XML.  
+2. **Scrapy**: Um framework de scraping que permite escrever spiders para extrair informações de sites.  
+3. **Selenium**: Uma ferramenta para automação de navegadores, útil para scraping de sites que dependem de JavaScript.
+
+## Passos Básicos
+1. **Identificar a fonte de dados**: Escolha o site do qual deseja extrair informações.
+2. **Analisar a estrutura do HTML**: Use ferramentas de desenvolvedor do navegador para entender a estrutura do site.
+3. **Escrever o código de scraping**: Utilize as bibliotecas mencionadas para escrever o código que irá extrair os dados desejados.
+4. **Armazenar os dados**: Salve os dados extraídos em um formato desejado, como CSV ou JSON.
+
+## Considerações Legais
+Antes de realizar web scraping, verifique os Termos de Serviço do site e a legalidade da extração de dados.
